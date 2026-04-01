@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		C1C70D3B2F7D300C006A9DE8 /* BitmapKeyboard.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = C1C70D342F7D300C006A9DE8 /* BitmapKeyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		C1C70D142F7D2FFB006A9DE8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -21,17 +25,60 @@
 			remoteGlobalIDString = C1C70D052F7D2FFA006A9DE8;
 			remoteInfo = BitmapKeyboardCanvas;
 		};
+		C1C70D392F7D300C006A9DE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1C70CFE2F7D2FFA006A9DE8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1C70D332F7D300C006A9DE8;
+			remoteInfo = BitmapKeyboard;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C1C70D402F7D300C006A9DE8 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C1C70D3B2F7D300C006A9DE8 /* BitmapKeyboard.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		C1C70D062F7D2FFA006A9DE8 /* BitmapKeyboardCanvas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitmapKeyboardCanvas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1C70D132F7D2FFB006A9DE8 /* BitmapKeyboardCanvasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitmapKeyboardCanvasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1C70D1D2F7D2FFB006A9DE8 /* BitmapKeyboardCanvasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitmapKeyboardCanvasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1C70D342F7D300C006A9DE8 /* BitmapKeyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = BitmapKeyboard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		C1C70D3C2F7D300C006A9DE8 /* Exceptions for "BitmapKeyboard" folder in "BitmapKeyboard" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = C1C70D332F7D300C006A9DE8 /* BitmapKeyboard */;
+		};
+		C1C70D442F7D4E74006A9DE8 /* Exceptions for "BitmapKeyboardCanvas" folder in "BitmapKeyboard" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Assets.xcassets,
+				ImageUtils.swift,
+			);
+			target = C1C70D332F7D300C006A9DE8 /* BitmapKeyboard */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		C1C70D082F7D2FFA006A9DE8 /* BitmapKeyboardCanvas */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				C1C70D442F7D4E74006A9DE8 /* Exceptions for "BitmapKeyboardCanvas" folder in "BitmapKeyboard" target */,
+			);
 			path = BitmapKeyboardCanvas;
 			sourceTree = "<group>";
 		};
@@ -43,6 +90,14 @@
 		C1C70D202F7D2FFB006A9DE8 /* BitmapKeyboardCanvasUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = BitmapKeyboardCanvasUITests;
+			sourceTree = "<group>";
+		};
+		C1C70D352F7D300C006A9DE8 /* BitmapKeyboard */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				C1C70D3C2F7D300C006A9DE8 /* Exceptions for "BitmapKeyboard" folder in "BitmapKeyboard" target */,
+			);
+			path = BitmapKeyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -69,6 +124,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C1C70D312F7D300C006A9DE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -78,6 +140,7 @@
 				C1C70D082F7D2FFA006A9DE8 /* BitmapKeyboardCanvas */,
 				C1C70D162F7D2FFB006A9DE8 /* BitmapKeyboardCanvasTests */,
 				C1C70D202F7D2FFB006A9DE8 /* BitmapKeyboardCanvasUITests */,
+				C1C70D352F7D300C006A9DE8 /* BitmapKeyboard */,
 				C1C70D072F7D2FFA006A9DE8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,6 +151,7 @@
 				C1C70D062F7D2FFA006A9DE8 /* BitmapKeyboardCanvas.app */,
 				C1C70D132F7D2FFB006A9DE8 /* BitmapKeyboardCanvasTests.xctest */,
 				C1C70D1D2F7D2FFB006A9DE8 /* BitmapKeyboardCanvasUITests.xctest */,
+				C1C70D342F7D300C006A9DE8 /* BitmapKeyboard.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -102,10 +166,12 @@
 				C1C70D022F7D2FFA006A9DE8 /* Sources */,
 				C1C70D032F7D2FFA006A9DE8 /* Frameworks */,
 				C1C70D042F7D2FFA006A9DE8 /* Resources */,
+				C1C70D402F7D300C006A9DE8 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				C1C70D3A2F7D300C006A9DE8 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				C1C70D082F7D2FFA006A9DE8 /* BitmapKeyboardCanvas */,
@@ -163,6 +229,28 @@
 			productReference = C1C70D1D2F7D2FFB006A9DE8 /* BitmapKeyboardCanvasUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		C1C70D332F7D300C006A9DE8 /* BitmapKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1C70D3D2F7D300C006A9DE8 /* Build configuration list for PBXNativeTarget "BitmapKeyboard" */;
+			buildPhases = (
+				C1C70D302F7D300C006A9DE8 /* Sources */,
+				C1C70D312F7D300C006A9DE8 /* Frameworks */,
+				C1C70D322F7D300C006A9DE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				C1C70D352F7D300C006A9DE8 /* BitmapKeyboard */,
+			);
+			name = BitmapKeyboard;
+			packageProductDependencies = (
+			);
+			productName = BitmapKeyboard;
+			productReference = C1C70D342F7D300C006A9DE8 /* BitmapKeyboard.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -184,6 +272,9 @@
 						CreatedOnToolsVersion = 26.4;
 						TestTargetID = C1C70D052F7D2FFA006A9DE8;
 					};
+					C1C70D332F7D300C006A9DE8 = {
+						CreatedOnToolsVersion = 26.4;
+					};
 				};
 			};
 			buildConfigurationList = C1C70D012F7D2FFA006A9DE8 /* Build configuration list for PBXProject "BitmapKeyboardCanvas" */;
@@ -203,6 +294,7 @@
 				C1C70D052F7D2FFA006A9DE8 /* BitmapKeyboardCanvas */,
 				C1C70D122F7D2FFB006A9DE8 /* BitmapKeyboardCanvasTests */,
 				C1C70D1C2F7D2FFB006A9DE8 /* BitmapKeyboardCanvasUITests */,
+				C1C70D332F7D300C006A9DE8 /* BitmapKeyboard */,
 			);
 		};
 /* End PBXProject section */
@@ -223,6 +315,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		C1C70D1B2F7D2FFB006A9DE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1C70D322F7D300C006A9DE8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -253,6 +352,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C1C70D302F7D300C006A9DE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -265,6 +371,11 @@
 			isa = PBXTargetDependency;
 			target = C1C70D052F7D2FFA006A9DE8 /* BitmapKeyboardCanvas */;
 			targetProxy = C1C70D1E2F7D2FFB006A9DE8 /* PBXContainerItemProxy */;
+		};
+		C1C70D3A2F7D300C006A9DE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1C70D332F7D300C006A9DE8 /* BitmapKeyboard */;
+			targetProxy = C1C70D392F7D300C006A9DE8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -405,6 +516,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -437,6 +549,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -538,6 +651,64 @@
 			};
 			name = Release;
 		};
+		C1C70D3E2F7D300C006A9DE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7J33ZNSR5W;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BitmapKeyboard/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = BitmapKeyboard;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = romas.BitmapKeyboardCanvas.BitmapKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C1C70D3F2F7D300C006A9DE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7J33ZNSR5W;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BitmapKeyboard/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = BitmapKeyboard;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = romas.BitmapKeyboardCanvas.BitmapKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -573,6 +744,15 @@
 			buildConfigurations = (
 				C1C70D2E2F7D2FFB006A9DE8 /* Debug */,
 				C1C70D2F2F7D2FFB006A9DE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1C70D3D2F7D300C006A9DE8 /* Build configuration list for PBXNativeTarget "BitmapKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1C70D3E2F7D300C006A9DE8 /* Debug */,
+				C1C70D3F2F7D300C006A9DE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
