@@ -68,6 +68,7 @@
 			membershipExceptions = (
 				Assets.xcassets,
 				ImageUtils.swift,
+				SharedTemporaryImageStorage.swift,
 			);
 			target = C1C70D332F7D300C006A9DE8 /* BitmapKeyboard */;
 		};
@@ -506,6 +507,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BitmapKeyboardCanvas/BitmapKeyboardCanvas.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7J33ZNSR5W;
@@ -539,6 +541,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BitmapKeyboardCanvas/BitmapKeyboardCanvas.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7J33ZNSR5W;
@@ -654,6 +657,7 @@
 		C1C70D3E2F7D300C006A9DE8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = BitmapKeyboard/BitmapKeyboard.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7J33ZNSR5W;
@@ -683,6 +687,7 @@
 		C1C70D3F2F7D300C006A9DE8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = BitmapKeyboard/BitmapKeyboard.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7J33ZNSR5W;

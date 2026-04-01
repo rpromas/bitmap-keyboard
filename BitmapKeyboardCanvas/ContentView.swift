@@ -15,10 +15,15 @@ struct ContentView: View {
             TextField("", text: $textualDataBuffer)
                 .focused($isTextFieldFocused)
                 .onChange(of: textualDataBuffer) {
-                    images.append(
-                        contentsOf:
-                            ImageUtils.parseTaggedImages(textualDataBuffer)
-                                .compactMap({ImageUtils.imageFromBase64($0)}))
+                    
+                    let imageKeys = ImageUtils.parseTaggedImages(textualDataBuffer);
+                    print(imageKeys)
+                    for imageKey in imageKeys {
+                        if let imageData = SharedTemporaryImageStorage.shared.getImagePngData(forKey: imageKey),
+                           let uiImage = UIImage(data: imageData) {
+                            images.append(uiImage)
+                        }
+                    }
                     
                     if textualDataBuffer == ImageUtils.deleteToken && !images.isEmpty
                     {

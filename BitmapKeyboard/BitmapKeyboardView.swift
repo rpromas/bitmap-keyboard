@@ -46,8 +46,9 @@ struct BitmapKeyboardView: View {
                 ) {
                     ForEach(images, id: \.self) { image in
                         Button(action: {
-                            if let base64Data = ImageUtils.imageToBase64(image) {
-                                onData(ImageUtils.embedImageInTags(base64Data))
+                            if let imagePngData = ImageUtils.imageToPngData(image) {
+                                let imageKey = SharedTemporaryImageStorage.shared.append(imagePngData: imagePngData)
+                                onData(ImageUtils.embedImageInTags(imageKey))
                             }
                         }, label: {
                             Image(image)
