@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		C1C70D142F7D2FFB006A9DE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1C70CFE2F7D2FFA006A9DE8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1C70D052F7D2FFA006A9DE8;
+			remoteInfo = BitmapKeyboardCanvas;
+		};
+		C1C70D1E2F7D2FFB006A9DE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1C70CFE2F7D2FFA006A9DE8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1C70D052F7D2FFA006A9DE8;
+			remoteInfo = BitmapKeyboardCanvas;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C1C70D062F7D2FFA006A9DE8 /* BitmapKeyboardCanvas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitmapKeyboardCanvas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1C70D132F7D2FFB006A9DE8 /* BitmapKeyboardCanvasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitmapKeyboardCanvasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1C70D1D2F7D2FFB006A9DE8 /* BitmapKeyboardCanvasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitmapKeyboardCanvasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		C1C70D082F7D2FFA006A9DE8 /* BitmapKeyboardCanvas */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BitmapKeyboardCanvas;
+			sourceTree = "<group>";
+		};
+		C1C70D162F7D2FFB006A9DE8 /* BitmapKeyboardCanvasTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BitmapKeyboardCanvasTests;
+			sourceTree = "<group>";
+		};
+		C1C70D202F7D2FFB006A9DE8 /* BitmapKeyboardCanvasUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BitmapKeyboardCanvasUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1C70D032F7D2FFA006A9DE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1C70D102F7D2FFB006A9DE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1C70D1A2F7D2FFB006A9DE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C1C70CFD2F7D2FFA006A9DE8 = {
+			isa = PBXGroup;
+			children = (
+				C1C70D082F7D2FFA006A9DE8 /* BitmapKeyboardCanvas */,
+				C1C70D162F7D2FFB006A9DE8 /* BitmapKeyboardCanvasTests */,
+				C1C70D202F7D2FFB006A9DE8 /* BitmapKeyboardCanvasUITests */,
+				C1C70D072F7D2FFA006A9DE8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C1C70D072F7D2FFA006A9DE8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1C70D062F7D2FFA006A9DE8 /* BitmapKeyboardCanvas.app */,
+				C1C70D132F7D2FFB006A9DE8 /* BitmapKeyboardCanvasTests.xctest */,
+				C1C70D1D2F7D2FFB006A9DE8 /* BitmapKeyboardCanvasUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1C70D052F7D2FFA006A9DE8 /* BitmapKeyboardCanvas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1C70D272F7D2FFB006A9DE8 /* Build configuration list for PBXNativeTarget "BitmapKeyboardCanvas" */;
+			buildPhases = (
+				C1C70D022F7D2FFA006A9DE8 /* Sources */,
+				C1C70D032F7D2FFA006A9DE8 /* Frameworks */,
+				C1C70D042F7D2FFA006A9DE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				C1C70D082F7D2FFA006A9DE8 /* BitmapKeyboardCanvas */,
+			);
+			name = BitmapKeyboardCanvas;
+			packageProductDependencies = (
+			);
+			productName = BitmapKeyboardCanvas;
+			productReference = C1C70D062F7D2FFA006A9DE8 /* BitmapKeyboardCanvas.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C1C70D122F7D2FFB006A9DE8 /* BitmapKeyboardCanvasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1C70D2A2F7D2FFB006A9DE8 /* Build configuration list for PBXNativeTarget "BitmapKeyboardCanvasTests" */;
+			buildPhases = (
+				C1C70D0F2F7D2FFB006A9DE8 /* Sources */,
+				C1C70D102F7D2FFB006A9DE8 /* Frameworks */,
+				C1C70D112F7D2FFB006A9DE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1C70D152F7D2FFB006A9DE8 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C1C70D162F7D2FFB006A9DE8 /* BitmapKeyboardCanvasTests */,
+			);
+			name = BitmapKeyboardCanvasTests;
+			packageProductDependencies = (
+			);
+			productName = BitmapKeyboardCanvasTests;
+			productReference = C1C70D132F7D2FFB006A9DE8 /* BitmapKeyboardCanvasTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C1C70D1C2F7D2FFB006A9DE8 /* BitmapKeyboardCanvasUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1C70D2D2F7D2FFB006A9DE8 /* Build configuration list for PBXNativeTarget "BitmapKeyboardCanvasUITests" */;
+			buildPhases = (
+				C1C70D192F7D2FFB006A9DE8 /* Sources */,
+				C1C70D1A2F7D2FFB006A9DE8 /* Frameworks */,
+				C1C70D1B2F7D2FFB006A9DE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1C70D1F2F7D2FFB006A9DE8 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C1C70D202F7D2FFB006A9DE8 /* BitmapKeyboardCanvasUITests */,
+			);
+			name = BitmapKeyboardCanvasUITests;
+			packageProductDependencies = (
+			);
+			productName = BitmapKeyboardCanvasUITests;
+			productReference = C1C70D1D2F7D2FFB006A9DE8 /* BitmapKeyboardCanvasUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1C70CFE2F7D2FFA006A9DE8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2640;
+				LastUpgradeCheck = 2640;
+				TargetAttributes = {
+					C1C70D052F7D2FFA006A9DE8 = {
+						CreatedOnToolsVersion = 26.4;
+					};
+					C1C70D122F7D2FFB006A9DE8 = {
+						CreatedOnToolsVersion = 26.4;
+						TestTargetID = C1C70D052F7D2FFA006A9DE8;
+					};
+					C1C70D1C2F7D2FFB006A9DE8 = {
+						CreatedOnToolsVersion = 26.4;
+						TestTargetID = C1C70D052F7D2FFA006A9DE8;
+					};
+				};
+			};
+			buildConfigurationList = C1C70D012F7D2FFA006A9DE8 /* Build configuration list for PBXProject "BitmapKeyboardCanvas" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C1C70CFD2F7D2FFA006A9DE8;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C1C70D072F7D2FFA006A9DE8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1C70D052F7D2FFA006A9DE8 /* BitmapKeyboardCanvas */,
+				C1C70D122F7D2FFB006A9DE8 /* BitmapKeyboardCanvasTests */,
+				C1C70D1C2F7D2FFB006A9DE8 /* BitmapKeyboardCanvasUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1C70D042F7D2FFA006A9DE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1C70D112F7D2FFB006A9DE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1C70D1B2F7D2FFB006A9DE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1C70D022F7D2FFA006A9DE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1C70D0F2F7D2FFB006A9DE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1C70D192F7D2FFB006A9DE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C1C70D152F7D2FFB006A9DE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1C70D052F7D2FFA006A9DE8 /* BitmapKeyboardCanvas */;
+			targetProxy = C1C70D142F7D2FFB006A9DE8 /* PBXContainerItemProxy */;
+		};
+		C1C70D1F2F7D2FFB006A9DE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1C70D052F7D2FFA006A9DE8 /* BitmapKeyboardCanvas */;
+			targetProxy = C1C70D1E2F7D2FFB006A9DE8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C1C70D252F7D2FFB006A9DE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 7J33ZNSR5W;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C1C70D262F7D2FFB006A9DE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 7J33ZNSR5W;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C1C70D282F7D2FFB006A9DE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7J33ZNSR5W;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = romas.BitmapKeyboardCanvas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C1C70D292F7D2FFB006A9DE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7J33ZNSR5W;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = romas.BitmapKeyboardCanvas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C1C70D2B2F7D2FFB006A9DE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7J33ZNSR5W;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = romas.BitmapKeyboardCanvasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BitmapKeyboardCanvas.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BitmapKeyboardCanvas";
+			};
+			name = Debug;
+		};
+		C1C70D2C2F7D2FFB006A9DE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7J33ZNSR5W;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = romas.BitmapKeyboardCanvasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BitmapKeyboardCanvas.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BitmapKeyboardCanvas";
+			};
+			name = Release;
+		};
+		C1C70D2E2F7D2FFB006A9DE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7J33ZNSR5W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = romas.BitmapKeyboardCanvasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BitmapKeyboardCanvas;
+			};
+			name = Debug;
+		};
+		C1C70D2F2F7D2FFB006A9DE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7J33ZNSR5W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = romas.BitmapKeyboardCanvasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BitmapKeyboardCanvas;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1C70D012F7D2FFA006A9DE8 /* Build configuration list for PBXProject "BitmapKeyboardCanvas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1C70D252F7D2FFB006A9DE8 /* Debug */,
+				C1C70D262F7D2FFB006A9DE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1C70D272F7D2FFB006A9DE8 /* Build configuration list for PBXNativeTarget "BitmapKeyboardCanvas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1C70D282F7D2FFB006A9DE8 /* Debug */,
+				C1C70D292F7D2FFB006A9DE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1C70D2A2F7D2FFB006A9DE8 /* Build configuration list for PBXNativeTarget "BitmapKeyboardCanvasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1C70D2B2F7D2FFB006A9DE8 /* Debug */,
+				C1C70D2C2F7D2FFB006A9DE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1C70D2D2F7D2FFB006A9DE8 /* Build configuration list for PBXNativeTarget "BitmapKeyboardCanvasUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1C70D2E2F7D2FFB006A9DE8 /* Debug */,
+				C1C70D2F2F7D2FFB006A9DE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C1C70CFE2F7D2FFA006A9DE8 /* Project object */;
+}
