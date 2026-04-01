@@ -68,9 +68,15 @@
 			membershipExceptions = (
 				Assets.xcassets,
 				ImageUtils.swift,
-				SharedTemporaryImageStorage.swift,
 			);
 			target = C1C70D332F7D300C006A9DE8 /* BitmapKeyboard */;
+		};
+		C1C70D542F7D850F006A9DE8 /* Exceptions for "BitmapKeyboard" folder in "BitmapKeyboardCanvas" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				SharedMemory.swift,
+			);
+			target = C1C70D052F7D2FFA006A9DE8 /* BitmapKeyboardCanvas */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
@@ -96,6 +102,7 @@
 		C1C70D352F7D300C006A9DE8 /* BitmapKeyboard */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
+				C1C70D542F7D850F006A9DE8 /* Exceptions for "BitmapKeyboard" folder in "BitmapKeyboardCanvas" target */,
 				C1C70D3C2F7D300C006A9DE8 /* Exceptions for "BitmapKeyboard" folder in "BitmapKeyboard" target */,
 			);
 			path = BitmapKeyboard;

@@ -15,16 +15,6 @@ struct ContentView: View {
             TextField("", text: $textualDataBuffer)
                 .focused($isTextFieldFocused)
                 .onChange(of: textualDataBuffer) {
-                    
-                    let imageKeys = ImageUtils.parseTaggedImages(textualDataBuffer);
-                    print(imageKeys)
-                    for imageKey in imageKeys {
-                        if let imageData = SharedTemporaryImageStorage.shared.getImagePngData(forKey: imageKey),
-                           let uiImage = UIImage(data: imageData) {
-                            images.append(uiImage)
-                        }
-                    }
-                    
                     if textualDataBuffer == ImageUtils.deleteToken && !images.isEmpty
                     {
                         images.removeLast();
@@ -73,12 +63,24 @@ struct ContentView: View {
                     isTextFieldFocused = true
                 }
             }
+        }.onAppear {
+            startReading()
         }
     }
     
     @State private var textualDataBuffer: String = ""
     @State private var images: [UIImage] = []
     @FocusState private var isTextFieldFocused: Bool
+    
+    func startReading() {
+        SharedMemory.shared.startReadThread { imageData in
+            guard let uiImage = UIImage(data: imageData) else { return }
+            
+            DispatchQueue.main.async {
+                images.append(uiImage)
+            }
+        }
+    }
     
     func copyStickerToPasteboard(_ stickerImage: UIImage) {
         UIPasteboard.general.image = stickerImage
