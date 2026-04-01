@@ -72,8 +72,8 @@ struct ContentView: View {
     @State private var images: [String] = []
     @FocusState private var isTextFieldFocused: Bool
     
-    func copyStickerToPasteboard(_ stickerImageNamge: String) {
-        if let img = UIImage(named: stickerImageNamge) {
+    func copyStickerToPasteboard(_ stickerImageName: String) {
+        if let img = UIImage(named: stickerImageName) {
             UIPasteboard.general.image = img
         }
     }
