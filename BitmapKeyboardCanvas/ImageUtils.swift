@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import UIKit
 
 struct ImageUtils {
     static let deleteToken = "[delete]"
@@ -31,5 +32,24 @@ struct ImageUtils {
             }
             return nil
         }
+    }
+    
+    static func imageToBase64(_ imageName: String) -> String? {
+        guard let uiImage = UIImage(named: imageName) else {
+            print("Failed to get image: \(imageName)")
+            return nil
+        }
+        
+        guard let pngData = uiImage.pngData() else {
+            print("Failed to get image PNG data: \(imageName)")
+            return nil
+        }
+        
+        return pngData.base64EncodedString()
+    }
+    
+    static func imageFromBase64(_ base64: String) -> UIImage? {
+        guard let data = Data(base64Encoded: base64) else { return nil }
+        return UIImage(data: data)
     }
 }

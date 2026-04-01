@@ -18,7 +18,9 @@ struct BitmapKeyboardView: View {
     
     var backgroundColor: Color
     
-    @State private var images: [String] = (1...12).map {"capybara\($0)"}
+    private static let useUltraHdCapybara = true
+    
+    @State private var images: [String] = (1...(useUltraHdCapybara ? 13 : 12)).map {"capybara\($0)"}
     
     private let columns = 4
     private let rowSpacing: Double = 8.0
@@ -44,7 +46,9 @@ struct BitmapKeyboardView: View {
                 ) {
                     ForEach(images, id: \.self) { image in
                         Button(action: {
-                            onData(ImageUtils.embedImageInTags(image))
+                            if let base64Data = ImageUtils.imageToBase64(image) {
+                                onData(ImageUtils.embedImageInTags(base64Data))
+                            }
                         }, label: {
                             Image(image)
                                 .resizable()

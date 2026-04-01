@@ -15,7 +15,10 @@ struct ContentView: View {
             TextField("", text: $textualDataBuffer)
                 .focused($isTextFieldFocused)
                 .onChange(of: textualDataBuffer) {
-                    images.append(contentsOf: ImageUtils.parseTaggedImages(textualDataBuffer))
+                    images.append(
+                        contentsOf:
+                            ImageUtils.parseTaggedImages(textualDataBuffer)
+                                .compactMap({ImageUtils.imageFromBase64($0)}))
                     
                     if textualDataBuffer == ImageUtils.deleteToken && !images.isEmpty
                     {
@@ -53,7 +56,7 @@ struct ContentView: View {
                             Button {
                                 copyStickerToPasteboard(image)
                             } label: {
-                                Image(image)
+                                Image(uiImage: image)
                                     .resizable()
                                     .scaledToFit()
                             }
@@ -69,16 +72,13 @@ struct ContentView: View {
     }
     
     @State private var textualDataBuffer: String = ""
-    @State private var images: [String] = []
+    @State private var images: [UIImage] = []
     @FocusState private var isTextFieldFocused: Bool
     
-    func copyStickerToPasteboard(_ stickerImageNamge: String) {
-        if let img = UIImage(named: stickerImageNamge) {
-            UIPasteboard.general.image = img
-        }
+    func copyStickerToPasteboard(_ stickerImage: UIImage) {
+        UIPasteboard.general.image = stickerImage
     }
 }
-
 
 struct AnimatedDots: View {
     @State private var dotCount = 0
